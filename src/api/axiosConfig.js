@@ -3,7 +3,7 @@ import axios from 'axios';
 // This creates a central place for our API configuration
 const apiClient = axios.create({
   // TEMPORARY FIX: Hardcoding the production URL to bypass Vercel build issue
-  baseURL: 'https://civiclens-api-production.up.railway.app/api',
+  baseURL: '/api',
 });
 
 // This "interceptor" automatically adds the auth token to every request
