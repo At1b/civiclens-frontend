@@ -107,7 +107,7 @@ function Dashboard() {
       <Navbar />
       <div className="app-container">
         <header className="app-header">
-          <h1>CivicLens Public Dashboard</h1>
+          <h1>CivicLens Public Dashboard!</h1>
           <p>Community-reported issues, sorted by urgency.</p>
           <div className="search-container">
             <input 
