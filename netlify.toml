@@ -1,10 +1,4 @@
-# This is the rule to proxy API requests to your backend.
-# It must come first.
-[[redirects]]
-  from = "/api/*"
-  to = "https://civiclens-api-production.up.railway.app/api/:splat"
-  status = 200
-  force = true
+
 
 # This is the general fallback rule for your React single-page app.
 # It makes sure that refreshing on pages like /login works correctly.
